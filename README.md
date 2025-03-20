@@ -27,3 +27,6 @@ It is useful for students and developers who want to understand mathematical pat
 - **Statistical Analysis**: Useful in data science and research  
 - **Graph Visualization**: Represent relations visually  
  
+------------ 
+If you want, we can take this project to more advanced levels,
+such as machine learning, statistics, and mathematical modeling! 🚀
