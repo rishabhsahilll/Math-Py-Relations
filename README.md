@@ -17,7 +17,7 @@ It is useful for students and developers who want to understand mathematical pat
 🚀 How to Run  
 ------------  
 1. Open the terminal or command prompt.  
-2. **Run the script**:  python 0.6.py
+2. **Run the script**:  python Math-Py-Relations.py
 3. Enter **elements for Set A and Set B** separated by commas.  
 4. The program will generate and display all possible relations.  
 
