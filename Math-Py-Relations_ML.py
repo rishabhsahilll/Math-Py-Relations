@@ -8,7 +8,7 @@ import numpy as np
 intro = """
 Name: Rishabh Sahil
 Topic: Relation & Functions (Find all Possible Relations with Graph & ML)
-Version: 1.1 (Advanced)
+Version: 1.2 (Fully Display)
 """
 print(intro)
 
@@ -53,9 +53,8 @@ print(f"\nNumber of possible relations = 2^{n_cartesian} = {n_relations}")
 # Generate all possible relations
 all_relations = [set(comb) for i in range(len(cartesian_product) + 1) for comb in combinations(cartesian_product, i)]
 print("\nAll possible relations:")
-for i, relation in enumerate(all_relations[:5], 1):  # Display only first 5 relations for clarity
+for i, relation in enumerate(all_relations, 1):
     print(f"R{i} = {relation}")
-print("... (Too many relations, only first 5 displayed)")
 
 # Graph Visualization (Advanced Mode)
 if mode == 'A':
